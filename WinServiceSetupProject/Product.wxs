@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="TestWinServiceSetup" Language="1033" Version="1.0.0.0" Manufacturer="MyCompany" UpgradeCode="d558556b-ebac-46db-8983-78634348f5f7">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<FeatureRef Id="ProductFeature"/>
+    <UIRef Id="MyUI" />
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="TestWinServiceSetup" />
+			</Directory>
+    <Directory Id="INETPUB" Name="Inetpub">
+        <Directory Id="WEBSITEFOLDER" Name="DemoWebsite"/>
+      </Directory>
+		</Directory>
+	</Fragment>
+</Wix>

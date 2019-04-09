@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+    <Feature Id="ProductFeature" Title="AmidoInstaller" Level="1" >
+      <Feature Id="WinServiceFeature" Title="WinService" Level="1">
+        <ComponentRef Id="ProductComponent"/>
+      </Feature>
+      <Feature Id="IISFeature" Title="IIS Site" Level="1">
+        <ComponentRef Id="DemoWebsiteAppPool"/>
+        <ComponentRef Id="InstallWebsite"/>
+      </Feature>
+    </Feature>
+  </Fragment>
+</Wix>

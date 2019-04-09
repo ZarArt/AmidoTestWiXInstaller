@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <!-- +++++++++++++++++++ VIRTUAL_DIR_VAL property initialize +++++++++++++++++++ -->
+  <Property Id="WEB_SITE_VAL" Value="MyWeb" />
+
+  <!-- +++++++++++++++++++ web app name properties initialize ++++++++++++++++++++ -->
+  <Property Id="WEB_APP_NAME" Value="MyWeb" />
+</Include>
