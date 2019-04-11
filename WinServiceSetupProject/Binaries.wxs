@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="WEBSITEFOLDER">
+            <Component Id="cmp32A77A71B082F8C7DFBFB3523A41D108" Guid="{8E9C6D46-7554-4559-A1E3-49942F243596}">
+                <File Id="fil1550D9C08EA319E84EBE81C691D18430" KeyPath="yes" Source="$(var.AmidoPublishPath)\favicon.ico" />
+            </Component>
+            <Component Id="cmpB9E66AC39991E9E277D3C9FDCB775195" Guid="{72C07955-1174-4D4A-B338-3FBFD342B405}">
+                <File Id="filCA62AC65AF8655616B219814137166B0" KeyPath="yes" Source="$(var.AmidoPublishPath)\Global.asax" />
+            </Component>
+            <Component Id="cmpFFD8719F2740D3AD0656C86A40F314F5" Guid="{D8EB4C06-D14B-4370-8DE0-4C2F4DDDC19F}">
+                <File Id="fil4DE9E16D626B3F46C5C0FC7C13F1F7D1" KeyPath="yes" Source="$(var.AmidoPublishPath)\Web.config" />
+            </Component>
+            <Directory Id="dir9CFDE7BFAC35AF97F3B69D88E05BFB2D" Name="bin">
+                <Component Id="cmpC57EC35EEA735269DF6DD7C983D8A74C" Guid="{A408525F-7316-48D5-AC30-ECA44EC25D55}">
+                    <File Id="fil505FAADF7E7A462C0721FAC1EAF8CB59" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\Antlr3.Runtime.dll" />
+                </Component>
+                <Component Id="cmp7A911A44CF70D78EAFD108F9B6DB6A4C" Guid="{B9505485-958C-4625-B109-5D71CFABD1C9}">
+                    <File Id="fil7488AB5D6AE84FCCB04363ED6C115023" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\Antlr3.Runtime.pdb" />
+                </Component>
+                <Component Id="cmp915A5D89772C9C24037AF140EC0CEBBC" Guid="{5FDA779A-AF23-4C3B-85AE-4DF9C7F93FD7}">
+                    <File Id="fil9DF7757A344BD6307CAAE34E459119C7" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\Microsoft.AspNet.TelemetryCorrelation.dll" />
+                </Component>
+                <Component Id="cmpDB680EF299EE23132E8ED773BDD8E7A8" Guid="{AB9E5A7A-88F1-44F3-8A59-DE44C214FEF5}">
+                    <File Id="fil4E3CE4EB99D0887686E39FA8FCD791AD" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+                </Component>
+                <Component Id="cmp7E52210AC95BB23CB9B2EB4FF91E0439" Guid="{E596766E-DE9A-489C-B6D9-B02A7D72D3E9}">
+                    <File Id="filD5F4EBB0DB690D61D6B195054B4EBF22" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\Microsoft.Web.Infrastructure.dll" />
+                </Component>
+                <Component Id="cmp24904D5C61F33071E849A0C163416F6C" Guid="{5863751F-ADFA-4B50-B885-B0DE042ACF98}">
+                    <File Id="filB2ED860AF55EC61CD02B6A4BE78D491F" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\Newtonsoft.Json.dll" />
+                </Component>
+                <Component Id="cmpB651CB9FDC13A825B6F54D452CBBA78A" Guid="{5AEFF7B6-CAFA-4FBA-AE07-23739A7A3085}">
+                    <File Id="fil222AE5844C8417BAA88CB0BCA37ABF93" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\System.Diagnostics.DiagnosticSource.dll" />
+                </Component>
+                <Component Id="cmp6A05254634ECCC8EB5F5F7044058A112" Guid="{7D594C4D-21CF-4BED-911C-97F5DD014537}">
+                    <File Id="fil9FE15E9C19D0ABC37C664B8094352A28" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\System.Web.Helpers.dll" />
+                </Component>
+                <Component Id="cmpF37AD74C9E3A8D24C4C44A540099BDEC" Guid="{6C270596-1CF9-4B09-88DE-AFC795EBFC1B}">
+                    <File Id="fil94BC12B7B5FF7B7414A561BCE70C0887" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\System.Web.Mvc.dll" />
+                </Component>
+                <Component Id="cmp996AE77C29AE859D5173C5B7B0270326" Guid="{0E25E5BC-FC22-4308-B3AB-4D4A7798FFCE}">
+                    <File Id="fil75B9618D0745733B27B12AF5D149F983" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\System.Web.Optimization.dll" />
+                </Component>
+                <Component Id="cmp60DBB4B11AD277E4FE2817B7222B14DE" Guid="{F5F0304C-0405-47E6-B3BF-0682B254F941}">
+                    <File Id="fil31E60B1D5EE6CF3F562F98857007A64D" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\System.Web.Razor.dll" />
+                </Component>
+                <Component Id="cmp0612290420E65FB5733DBA3517167D06" Guid="{DD86A377-5C75-425E-9C29-946861AB30E4}">
+                    <File Id="fil7744D305FF60AD6AC87FEEEE50089DD4" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\System.Web.WebPages.Deployment.dll" />
+                </Component>
+                <Component Id="cmpF9909A79F81567B50234D373C71503DF" Guid="{C6BB92E5-962C-4145-BE66-20E9E1E08061}">
+                    <File Id="filD1BA3334DA4B8A1C6610739BF4B8E6FF" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\System.Web.WebPages.dll" />
+                </Component>
+                <Component Id="cmpEE9C2786FAF662497DA7552132616DB8" Guid="{C73B8AE9-2BDB-4E96-B34A-11C642F00028}">
+                    <File Id="fil86DA7C30D0D8611333289B2485B7D364" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\System.Web.WebPages.Razor.dll" />
+                </Component>
+                <Component Id="cmp8C08BACA62E362D33F988BD9F03581E8" Guid="{639334E9-1F1E-4EB5-BA25-DEDD93FA31B9}">
+                    <File Id="fil2C3FFBCF888994D55926CB82A830723F" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\WebApplication.dll" />
+                </Component>
+                <Component Id="cmp218C89A0C2AB2EC5180EFB959C7AFCFE" Guid="{619F2CC0-B02F-46FF-BA47-704DC2744E35}">
+                    <File Id="filFFF6788CC7A64E4E7CF41CFCCF34EAE7" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\WebApplication.pdb" />
+                </Component>
+                <Component Id="cmp4522F99ED11946579893811E900B4D4F" Guid="{9D717212-0D1C-4C25-A258-11F6678E303E}">
+                    <File Id="filA43571576832C5994FEECC42F64C8B54" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\WebGrease.dll" />
+                </Component>
+                <Directory Id="dirAAA629C30D0076BF43F1CEECB0A9335C" Name="roslyn">
+                    <Component Id="cmpF17936C51E1DCCC8A96FF149197B66C6" Guid="{78390322-67AA-4545-BF74-BB7752FFE5AC}">
+                        <File Id="fil3E5D232F4456DD9051D4311892D40113" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\csc.exe" />
+                    </Component>
+                    <Component Id="cmp076D922511F79982329B2D800C5D65DC" Guid="{91EA9EC6-BCA9-4636-90AF-FAF6DB610E12}">
+                        <File Id="filF3BBC29536FD57783E248656CF6D0135" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\csc.exe.config" />
+                    </Component>
+                    <Component Id="cmpD921B8D8FC4B10E33DD932BF96CFBCBB" Guid="{198FAA84-3BCE-4707-A39D-9B85DCB02547}">
+                        <File Id="filB6B1B39960E2D0EC63DF2131A40B29C2" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\csc.rsp" />
+                    </Component>
+                    <Component Id="cmp729703821781291552EE89D18488C0EC" Guid="{AEEE90BE-B28D-4BEA-82FD-93A7171B4890}">
+                        <File Id="fil8F2312E02653BF98C2E90E8D423D55F9" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\csi.exe" />
+                    </Component>
+                    <Component Id="cmpD02DEE895CD51EDD85EEFC7D9CD3B2B5" Guid="{906F4EC7-CED0-4B41-A003-1DD6D6E3B4BC}">
+                        <File Id="fil09EFCF6F380899715CBCCFDCDA08ABC1" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\csi.exe.config" />
+                    </Component>
+                    <Component Id="cmp22679E9A790F78DB2BEC721667845F1B" Guid="{BA02F991-CAAB-4F52-8E27-70437760DEB9}">
+                        <File Id="fil74D3BE214821031B8870D6DF26DD2C2F" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\csi.rsp" />
+                    </Component>
+                    <Component Id="cmp28DDA9737B385F65B4E8E4730C9FF54F" Guid="{8782FE16-D387-4E80-982E-E4A8C8E8CA06}">
+                        <File Id="fil63E754B059E30002AF178EEE5171D64F" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+                    </Component>
+                    <Component Id="cmpE118D9411E598904BA115C5E9D76E473" Guid="{EE1705B0-6C98-4900-8827-A66439B386E1}">
+                        <File Id="fil6B2DA7EA46AD2B348FD930E064BA183D" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+                    </Component>
+                    <Component Id="cmpC8D42CE6553239C447E59321BE1477F8" Guid="{687AE2FA-A9E0-47EA-985D-C154031FF659}">
+                        <File Id="filC23AE9E0EE0FC05DAC53460E5A254B2F" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+                    </Component>
+                    <Component Id="cmpEFA47E7AD7514A2546D7312462D9183D" Guid="{93D76623-0BA7-4282-853F-496CBFCD4220}">
+                        <File Id="fil61C33D43D6692AE67D7600E41B8A34F8" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\Microsoft.CodeAnalysis.dll" />
+                    </Component>
+                    <Component Id="cmp09EF107649042325446B579D8BC9A154" Guid="{A009E72A-81AC-4048-990E-AC8ED1184234}">
+                        <File Id="fil4EED98E228A39526B4C44BBC2305FAF0" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" />
+                    </Component>
+                    <Component Id="cmp17181DE11A6C96D45915955228504969" Guid="{1C607354-9490-429E-8E1F-7D4C005C6713}">
+                        <File Id="fil1BE7531632FE908C215C1B836A85C3A5" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+                    </Component>
+                    <Component Id="cmp5B6C876272A90633E0856440680AC0BB" Guid="{0B048594-4A59-41B6-AECA-7E2035604757}">
+                        <File Id="filB7D177B53AD6758543692404DE9C6436" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\Microsoft.CSharp.Core.targets" />
+                    </Component>
+                    <Component Id="cmp6EF42DD00BAEA8AD4F101BB68C8CB9BD" Guid="{E6880015-67A9-4C0A-AAE4-D86878051821}">
+                        <File Id="filFEE8EB920DC7D427BF88CE32EFDA0C6B" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" />
+                    </Component>
+                    <Component Id="cmp415365AC1BC404F1C4F2405070BC9E06" Guid="{DFB6FBF7-9C3D-475A-B935-8943449D31DE}">
+                        <File Id="filB9254892BB9EAD3CCD704F1B7E645144" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" />
+                    </Component>
+                    <Component Id="cmp47F7894098707F087464AAEBCB41F092" Guid="{CFC758E1-7BEA-4EEA-ACBC-3EA590591999}">
+                        <File Id="fil3B23ED3C070AA64C04172888A72BDD9D" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\Microsoft.Managed.Core.targets" />
+                    </Component>
+                    <Component Id="cmpDF13E82CE34618630562F0893F0E7ADB" Guid="{13630754-584A-4F8C-B774-95D78593DA03}">
+                        <File Id="filD4AAC511326F60D125E59F8285BABDA5" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+                    </Component>
+                    <Component Id="cmp4A8E97368B896853F7A6E56449C0BF2A" Guid="{FF3020F3-3313-40ED-90D1-9928611CF4AE}">
+                        <File Id="fil5CDF273D417CD0CE55A9059E8290A0DD" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.AppContext.dll" />
+                    </Component>
+                    <Component Id="cmp6D89EC4BD352B19F4B53B5D711D2561D" Guid="{0B6E2D7F-5A6E-4FA3-B4D7-76DFA4006630}">
+                        <File Id="filF2952ED02177C6B5423576F22F32E231" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Collections.Immutable.dll" />
+                    </Component>
+                    <Component Id="cmpDC1AF77A057A2EC7AF2499A3A07ECCF8" Guid="{D9EEA00F-218B-43A7-A43F-137746875AAF}">
+                        <File Id="fil4126B7197067F4EEAFB62CDE1C0C4A55" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Console.dll" />
+                    </Component>
+                    <Component Id="cmp402BAFBC4033371165DEB19BC74EE0C1" Guid="{C5AFB18D-DEC6-49EF-85C3-338D5BD04042}">
+                        <File Id="fil3BA1ED2A74FD32C20C9BA53A6963618E" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Diagnostics.FileVersionInfo.dll" />
+                    </Component>
+                    <Component Id="cmpF5F73D0C69313F72B654BFBAA9D1CB65" Guid="{8D486C72-F00D-49C1-9BDC-BA77B8B24F7F}">
+                        <File Id="fil064A659CAF5DB44EF9A3CB0FE017218B" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Diagnostics.StackTrace.dll" />
+                    </Component>
+                    <Component Id="cmp1EF8E85C530EBB296908A693DF2741C9" Guid="{12100945-669C-4377-891B-B00493AC2FAC}">
+                        <File Id="filC5063AD30ED195F735163D0AA589CA99" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.IO.Compression.dll" />
+                    </Component>
+                    <Component Id="cmpE1FC6812A1C21B5DABB8FC70B2941970" Guid="{7254F2DB-044A-4861-A8D1-BEA2E4C0C6A0}">
+                        <File Id="filB71200AB8270448AE058541430531818" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.IO.FileSystem.dll" />
+                    </Component>
+                    <Component Id="cmp9455C8EB8387C344EAAEDF1E0762E8D3" Guid="{C20E3CF4-7207-4D0A-8F58-24D8114E3665}">
+                        <File Id="fil341650152D269A760DD37E7FC512F6E2" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.IO.FileSystem.Primitives.dll" />
+                    </Component>
+                    <Component Id="cmpB0D26D3E25AF9333F3F760DE28829FE0" Guid="{5C2B7E98-2B5E-4C64-B521-6C27422E3F85}">
+                        <File Id="fil39B56C92489EFAAF64B7893F9C6FC0FD" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.IO.Pipes.AccessControl.dll" />
+                    </Component>
+                    <Component Id="cmp9032EFC59DDDBCE0D52C7AC67B970B32" Guid="{E901567C-67A6-42FE-8110-D0DEAB557CF2}">
+                        <File Id="fil9D87046E62E2508FCC8FCD0036E92386" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.IO.Pipes.dll" />
+                    </Component>
+                    <Component Id="cmp9AA85509C19173716CF0E35E7C50B045" Guid="{A122EE22-CBCE-432E-A396-108A0B3DDC8B}">
+                        <File Id="fil8CDA779AE1C1DBFB0D8912F5514FDA5C" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Reflection.Metadata.dll" />
+                    </Component>
+                    <Component Id="cmp1C50940147E9599B36FC2E6AF3529536" Guid="{CC1A169E-F8CA-441E-9682-333F3931FC3D}">
+                        <File Id="fil1C06798393877CE4E385E477BD72643C" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Security.AccessControl.dll" />
+                    </Component>
+                    <Component Id="cmpA8F71119FFB3244B826A6E720AE860DF" Guid="{E1E9C013-D74F-458B-87AE-1E0C570CF95D}">
+                        <File Id="filC1EC7F9713AABF1FAD1A4A4000AF4A05" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Security.Claims.dll" />
+                    </Component>
+                    <Component Id="cmp58E9FBD762EA61DAB3800CFFD985F6D3" Guid="{571504F5-AC3D-4A24-90E1-421567046094}">
+                        <File Id="fil6F557B11F6EE87F0D83D37603D2373E7" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Security.Cryptography.Algorithms.dll" />
+                    </Component>
+                    <Component Id="cmp7F84E7BDE832AD774256581B2EDA1C55" Guid="{0D63351C-C05E-445C-BF9C-21C2F182AC52}">
+                        <File Id="filCF58285EE84D1437C2CA58CA54F1C17B" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Security.Cryptography.Encoding.dll" />
+                    </Component>
+                    <Component Id="cmp25053D1AA6B02EF0D214F1A359AB88EF" Guid="{30107337-B8F2-48C3-B28F-8E0FA4E9333B}">
+                        <File Id="fil758FD60D07F41E0AA3EFE0CAA60A972C" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Security.Cryptography.Primitives.dll" />
+                    </Component>
+                    <Component Id="cmp138EC3BC1F535D50CE39D0CD7B1C0D9D" Guid="{9B8737EC-B205-429D-A4B8-0C2CDDF52AF9}">
+                        <File Id="fil81F124D86E8680BFFD267A4035DE5AA6" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Security.Cryptography.X509Certificates.dll" />
+                    </Component>
+                    <Component Id="cmp1BAA43C54CD23A5F07C7E2DAC0184F42" Guid="{396929C9-A4D6-404E-9BFD-974C033CF680}">
+                        <File Id="fil9A9DE4E8BEE5F7AF0AF9FBB6F064C723" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Security.Principal.Windows.dll" />
+                    </Component>
+                    <Component Id="cmp044B359D6A50B9C156B613362842D63C" Guid="{A4566545-8F70-4215-A07D-5F76E3FB1AED}">
+                        <File Id="fil0385333A54A1801E5E824762F8052820" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Text.Encoding.CodePages.dll" />
+                    </Component>
+                    <Component Id="cmpD79C9970A3023C0A37B6CD9D914A76E5" Guid="{84D65361-9749-4091-B31F-BFD435ACA88B}">
+                        <File Id="fil1D7864738E265FBF280FBEC599B355DB" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.ValueTuple.dll" />
+                    </Component>
+                    <Component Id="cmp64C32476F00EB1E1A1DDA5D2C248D4E6" Guid="{6F337DD4-5737-4C0E-92A5-4BEEB8201B5D}">
+                        <File Id="filA0F7872A79F8E5D0E7DF5BA7431E3BED" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Xml.ReaderWriter.dll" />
+                    </Component>
+                    <Component Id="cmp92BA9643668E6FF53E0D32BE35706EC1" Guid="{D368C71A-1884-4B47-BE44-18F826FF0D96}">
+                        <File Id="fil3C0443653E224B4D440E05ED4F35BA86" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Xml.XmlDocument.dll" />
+                    </Component>
+                    <Component Id="cmp7F6E08948CBDA74E4FA8E038FC62CD4D" Guid="{E4377BD4-D9BA-426F-B14B-6FFDBFA15129}">
+                        <File Id="fil3CD997F360E6CB405C4173BFAF51715A" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Xml.XPath.dll" />
+                    </Component>
+                    <Component Id="cmp127B48D57FD007383678A08BB9236AB5" Guid="{631AAAC3-A9ED-4DA6-A454-8B5F99DB3D31}">
+                        <File Id="filD2AC9805679C8743B2394A1BAB649BFD" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\System.Xml.XPath.XDocument.dll" />
+                    </Component>
+                    <Component Id="cmp45D2F31BD19F968B4E0A6856548DB47A" Guid="{28CAAC6D-1402-418D-B0A6-926FE4B5D914}">
+                        <File Id="filA4A0F2FD331582EEA53261DCB97B830E" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\vbc.exe" />
+                    </Component>
+                    <Component Id="cmpC3F049993F198439CA72AFA9E8473888" Guid="{052BFC9A-D8A2-4ABC-936E-ED4263AAA23C}">
+                        <File Id="fil1E3D6EAF616B988D5AC54FD45DDD0AD6" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\vbc.exe.config" />
+                    </Component>
+                    <Component Id="cmp5BA7590522ED62970CD3A2ED77543DC2" Guid="{A06AFB6D-9E46-45FF-BFE9-1E20C807498D}">
+                        <File Id="fil94B4143E1E68E45B4140D8ED8AE8FCA2" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\vbc.rsp" />
+                    </Component>
+                    <Component Id="cmp49AC6F417F34F71FA9AB22B76A22C925" Guid="{806F67A3-9B24-4206-A1BE-271401F2B3D8}">
+                        <File Id="fil00487263E2487474046793D0ED39CC48" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\VBCSCompiler.exe" />
+                    </Component>
+                    <Component Id="cmpBF037E1E37AF7D004B1EB082B7F38082" Guid="{E160A757-3459-4A8B-8BB3-27937C377C70}">
+                        <File Id="filA4A6C5BE6C85EDF65A4074CE86FA180E" KeyPath="yes" Source="$(var.AmidoPublishPath)\bin\roslyn\VBCSCompiler.exe.config" />
+                    </Component>
+                </Directory>
+            </Directory>
+            <Directory Id="dirBFB45D4C4BB37DD25A25DEC0DD972569" Name="Content">
+                <Component Id="cmpD3E6F858E4F51E768867362FEE731115" Guid="{0DF473CD-CC8F-4C26-B6FA-60F6EB63EDDA}">
+                    <File Id="fil44419E4FF5E54488D08CEF197D98986C" KeyPath="yes" Source="$(var.AmidoPublishPath)\Content\bootstrap-theme.css" />
+                </Component>
+                <Component Id="cmp5DF2D898D13CF3AF11714C666B6141D4" Guid="{49D4158D-B53C-4CFB-87F0-57CE87DA3F98}">
+                    <File Id="filE82100C711EE016DF09D381917C3D444" KeyPath="yes" Source="$(var.AmidoPublishPath)\Content\bootstrap-theme.css.map" />
+                </Component>
+                <Component Id="cmp93A5752D8DAC2EFD51CD914529BE86CB" Guid="{9A16D321-90C3-4228-9DCC-3C450D4ED1BD}">
+                    <File Id="filB07CAD235A4F6B4FD1683D63C9625745" KeyPath="yes" Source="$(var.AmidoPublishPath)\Content\bootstrap-theme.min.css" />
+                </Component>
+                <Component Id="cmpA52C6BD4864C3441D7E9218EFCD9F649" Guid="{1A89D7D5-0F50-431A-A9C9-8F94C80F1C5B}">
+                    <File Id="filF8246C2DF304F85B1C768D23366CEDF1" KeyPath="yes" Source="$(var.AmidoPublishPath)\Content\bootstrap-theme.min.css.map" />
+                </Component>
+                <Component Id="cmpEAEEE1EDB7486041DB65EE9E5BD8AAC1" Guid="{A5EF417B-7FB7-49E7-958A-8961E073F183}">
+                    <File Id="fil94211A425C5F3034358D13A8CDE592C0" KeyPath="yes" Source="$(var.AmidoPublishPath)\Content\bootstrap.css" />
+                </Component>
+                <Component Id="cmpB381254322FAC600AFD149839198E025" Guid="{7C749A87-C722-4884-BF50-DA33CDE8BE20}">
+                    <File Id="filC2DB236A9A941A1A8340D0B9A2CC778B" KeyPath="yes" Source="$(var.AmidoPublishPath)\Content\bootstrap.css.map" />
+                </Component>
+                <Component Id="cmp6D5C2ED99FD72A1C0C6E378A62698842" Guid="{F76D53D7-D6C0-451E-8E99-003E02CC479C}">
+                    <File Id="fil384390F2D60DE7CA698566ACFE7CCD21" KeyPath="yes" Source="$(var.AmidoPublishPath)\Content\bootstrap.min.css" />
+                </Component>
+                <Component Id="cmpC08EDE181D4FBE55AF19BAFB6D98FCD7" Guid="{167C048A-F4A2-4A03-B7C9-7B66ED22F300}">
+                    <File Id="fil9C3EE86ECDEFA45F9B2D7916D491BED4" KeyPath="yes" Source="$(var.AmidoPublishPath)\Content\bootstrap.min.css.map" />
+                </Component>
+                <Component Id="cmpD271581B1D585C77C1CF42B2DA7282F4" Guid="{D550D391-2806-469A-9467-F611613CAF94}">
+                    <File Id="filB0CBB64E6E0EBAB4C2366DF8D08E2440" KeyPath="yes" Source="$(var.AmidoPublishPath)\Content\Site.css" />
+                </Component>
+            </Directory>
+            <Directory Id="dirB9B24E7BC3FEC68B318808391CA2A1EF" Name="fonts">
+                <Component Id="cmp6FBD2E50FAF025D5C653E61A27CB33AF" Guid="{E1E7078E-AB07-4137-868B-89EE568AEA90}">
+                    <File Id="fil83E57DB4D1E33F65DBDFA8C9AA85792D" KeyPath="yes" Source="$(var.AmidoPublishPath)\fonts\glyphicons-halflings-regular.eot" />
+                </Component>
+                <Component Id="cmp06D37D77844FB90464BC3A0B50D2305B" Guid="{9CBA2213-AC81-4FA2-A2A8-049CB35D45B1}">
+                    <File Id="fil2803A8E8C309502E296F8492D561A2E8" KeyPath="yes" Source="$(var.AmidoPublishPath)\fonts\glyphicons-halflings-regular.svg" />
+                </Component>
+                <Component Id="cmp6FA43604FF2BEF0F3A961BE45C229A98" Guid="{40393760-1502-443D-9E0B-75CE9BE05BC3}">
+                    <File Id="filDFE9E347F534AD335371F40BA0E4830B" KeyPath="yes" Source="$(var.AmidoPublishPath)\fonts\glyphicons-halflings-regular.ttf" />
+                </Component>
+                <Component Id="cmp52AF73DD0F6BD7506E48493201DF9679" Guid="{58D80141-9766-4737-9B20-1F3D5CAD82B8}">
+                    <File Id="filB03832C55771361E9517CF774A5FB8C3" KeyPath="yes" Source="$(var.AmidoPublishPath)\fonts\glyphicons-halflings-regular.woff" />
+                </Component>
+                <Component Id="cmp94A75B035EF1DFC227AC7C3BC68FFFA1" Guid="{5EC93A26-0062-4960-BBEF-DE3AE1B7E044}">
+                    <File Id="fil7CE08779397B26186178929BD11F2D8E" KeyPath="yes" Source="$(var.AmidoPublishPath)\fonts\glyphicons-halflings-regular.woff2" />
+                </Component>
+            </Directory>
+            <Directory Id="dirCADF0CBDFC2FF9F55B0F3459DBCE039B" Name="Scripts">
+                <Component Id="cmp068A3A139F3B6E192A44841C4F96D058" Guid="{26058503-6F2F-4EC3-BBF6-B1D9F86292FA}">
+                    <File Id="filE4AC29DF79360BD5CBC7A2C022C73483" KeyPath="yes" Source="$(var.AmidoPublishPath)\Scripts\bootstrap.js" />
+                </Component>
+                <Component Id="cmpD219356E824CFB0F57BE3B2430155F98" Guid="{4376F21F-6840-48A5-B1E9-A5002B7CBFEB}">
+                    <File Id="fil0867796D0A658E95D0AC82AB7246EA75" KeyPath="yes" Source="$(var.AmidoPublishPath)\Scripts\bootstrap.min.js" />
+                </Component>
+                <Component Id="cmp585FB74126B9D30233B5325D2192B2E1" Guid="{C7970367-3764-4BA3-BAA6-E7DEBD04CAE6}">
+                    <File Id="filBA2C6A1E38293ABAF8956B8AF33C4CCE" KeyPath="yes" Source="$(var.AmidoPublishPath)\Scripts\jquery-3.3.1.js" />
+                </Component>
+                <Component Id="cmpB9CFE0CDAAB786150C471E317DCDBF2F" Guid="{F0E7C338-72AC-435E-B704-F02D5E1BE261}">
+                    <File Id="fil41FAA31C7CD65776C3C77EABB69798D9" KeyPath="yes" Source="$(var.AmidoPublishPath)\Scripts\jquery-3.3.1.min.js" />
+                </Component>
+                <Component Id="cmpD190658C1C96504AAA076F2EE6F5F715" Guid="{E589AC54-259E-4C92-981D-F0E71C426413}">
+                    <File Id="fil5A9854F3F5DB3DB5478C3072C259AE33" KeyPath="yes" Source="$(var.AmidoPublishPath)\Scripts\jquery-3.3.1.min.map" />
+                </Component>
+                <Component Id="cmp1EA1876F676B63A6FDEB6D800E6E702F" Guid="{8288A8D1-41A1-4701-870D-44EFDA64C11E}">
+                    <File Id="fil0C1C4D1000A92A3266EA153FBC278117" KeyPath="yes" Source="$(var.AmidoPublishPath)\Scripts\jquery-3.3.1.slim.js" />
+                </Component>
+                <Component Id="cmpECC552391F18C23A4AE7E71965310F22" Guid="{2DC7FE82-7D43-4C09-9957-AF76ECEA920D}">
+                    <File Id="fil880FCFBF830297C4109ECD4B09F22E0A" KeyPath="yes" Source="$(var.AmidoPublishPath)\Scripts\jquery-3.3.1.slim.min.js" />
+                </Component>
+                <Component Id="cmp7D60DB644E03BADDD7621805DCB7094E" Guid="{0F6FB26B-EBA4-4CDB-B7FC-94BE272DEAA2}">
+                    <File Id="fil751A74248739D68BD7E082DD5119ABC0" KeyPath="yes" Source="$(var.AmidoPublishPath)\Scripts\jquery-3.3.1.slim.min.map" />
+                </Component>
+                <Component Id="cmp5759377526509F9CF22A8CBA3606EF9E" Guid="{83DCBFDF-59F6-4DAC-BBEE-B77B46BAC46D}">
+                    <File Id="filCDBF7ED82B13E3B3E35435F1751AE5AA" KeyPath="yes" Source="$(var.AmidoPublishPath)\Scripts\jquery.validate.js" />
+                </Component>
+                <Component Id="cmp58985518EAD6E3EE9CCABAB271BB1EA5" Guid="{0D359AC5-80D1-40F8-BA19-B325006DCB8C}">
+                    <File Id="filD8331047B69EB13AE8D046DB6CA7C01E" KeyPath="yes" Source="$(var.AmidoPublishPath)\Scripts\jquery.validate.min.js" />
+                </Component>
+                <Component Id="cmp61A6B7032592BF852F03B1F772E72DB5" Guid="{58CFCADF-6454-46AB-AC0B-5E58521FDF72}">
+                    <File Id="fil1356FC8BF6C505BDFC36994D03EC1C2D" KeyPath="yes" Source="$(var.AmidoPublishPath)\Scripts\jquery.validate.unobtrusive.js" />
+                </Component>
+                <Component Id="cmp3255FBBD6F2F26229507B12546B92C67" Guid="{B1F63B69-3A59-4E14-B823-75E90C272C04}">
+                    <File Id="filAD8B453F3E06F5A46B70F8F780F59F10" KeyPath="yes" Source="$(var.AmidoPublishPath)\Scripts\jquery.validate.unobtrusive.min.js" />
+                </Component>
+                <Component Id="cmp651706C0B27DD17529055F381BEBB8F5" Guid="{ECC6955B-F02B-4524-969B-A537168F973E}">
+                    <File Id="filD50668F671D120937FFE6DB846DBCF8B" KeyPath="yes" Source="$(var.AmidoPublishPath)\Scripts\modernizr-2.8.3.js" />
+                </Component>
+            </Directory>
+            <Directory Id="dir3AFCC9D69C16A849DDFF3AA2D36D5C8F" Name="Views">
+                <Component Id="cmpAC66C80EFA42C44015DFAA6E2C8537F1" Guid="{1AB28E5E-162E-4AA9-B0F4-6814EA482DF4}">
+                    <File Id="filEA843E265D4C8A94DE6BCA8F2EBDD89E" KeyPath="yes" Source="$(var.AmidoPublishPath)\Views\Web.config" />
+                </Component>
+                <Component Id="cmp080CF3C85ADB68B0693981C085C5C461" Guid="{B2D93082-DC24-4E99-B218-549F3A8B6262}">
+                    <File Id="fil5C22B52131BC864F9746ECA16062AE32" KeyPath="yes" Source="$(var.AmidoPublishPath)\Views\_ViewStart.cshtml" />
+                </Component>
+                <Directory Id="dir5E405B3317090ADE35B67DB86ECE6E24" Name="Home">
+                    <Component Id="cmpDA0474CAA59C8EE3989C948FF21A9083" Guid="{BAD54E15-2E73-46C8-95B6-B04EF549F4A9}">
+                        <File Id="filEF7FC01A73C0509289C3359F7EB386EC" KeyPath="yes" Source="$(var.AmidoPublishPath)\Views\Home\About.cshtml" />
+                    </Component>
+                    <Component Id="cmpEC3F2FB788F106BD73D456E8CCA83EF6" Guid="{78A614AB-EAE5-4FF6-89DD-E9E1B89107ED}">
+                        <File Id="fil7E05F319F1A623A6C4D556BD865DBA99" KeyPath="yes" Source="$(var.AmidoPublishPath)\Views\Home\Contact.cshtml" />
+                    </Component>
+                    <Component Id="cmp6964A98C0CD610FE6EED875772DBF8D9" Guid="{24239422-1471-49DA-B2CB-BD0D2ACF7037}">
+                        <File Id="fil55E4A6CBFE761F4453F7DC62E22BAA9C" KeyPath="yes" Source="$(var.AmidoPublishPath)\Views\Home\Index.cshtml" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir570B8F9A1970CEC2B8F254CD24199481" Name="Shared">
+                    <Component Id="cmp7031CE1E156115F0785B3630D0C108DC" Guid="{3169179A-7834-45A2-8709-FDA99091936B}">
+                        <File Id="fil1197050A9CCD1D2A7F9BFD9FB489DCB2" KeyPath="yes" Source="$(var.AmidoPublishPath)\Views\Shared\Error.cshtml" />
+                    </Component>
+                    <Component Id="cmp9E15FF8637BCBB10379E8930B63FC27C" Guid="{0533561E-A22E-4473-BE87-00D56D1C2B3B}">
+                        <File Id="fil49CD6CC3677BB799642C26B3A811B681" KeyPath="yes" Source="$(var.AmidoPublishPath)\Views\Shared\_Layout.cshtml" />
+                    </Component>
+                </Directory>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="Binaries">
+            <ComponentRef Id="cmp32A77A71B082F8C7DFBFB3523A41D108" />
+            <ComponentRef Id="cmpB9E66AC39991E9E277D3C9FDCB775195" />
+            <ComponentRef Id="cmpFFD8719F2740D3AD0656C86A40F314F5" />
+            <ComponentRef Id="cmpC57EC35EEA735269DF6DD7C983D8A74C" />
+            <ComponentRef Id="cmp7A911A44CF70D78EAFD108F9B6DB6A4C" />
+            <ComponentRef Id="cmp915A5D89772C9C24037AF140EC0CEBBC" />
+            <ComponentRef Id="cmpDB680EF299EE23132E8ED773BDD8E7A8" />
+            <ComponentRef Id="cmp7E52210AC95BB23CB9B2EB4FF91E0439" />
+            <ComponentRef Id="cmp24904D5C61F33071E849A0C163416F6C" />
+            <ComponentRef Id="cmpB651CB9FDC13A825B6F54D452CBBA78A" />
+            <ComponentRef Id="cmp6A05254634ECCC8EB5F5F7044058A112" />
+            <ComponentRef Id="cmpF37AD74C9E3A8D24C4C44A540099BDEC" />
+            <ComponentRef Id="cmp996AE77C29AE859D5173C5B7B0270326" />
+            <ComponentRef Id="cmp60DBB4B11AD277E4FE2817B7222B14DE" />
+            <ComponentRef Id="cmp0612290420E65FB5733DBA3517167D06" />
+            <ComponentRef Id="cmpF9909A79F81567B50234D373C71503DF" />
+            <ComponentRef Id="cmpEE9C2786FAF662497DA7552132616DB8" />
+            <ComponentRef Id="cmp8C08BACA62E362D33F988BD9F03581E8" />
+            <ComponentRef Id="cmp218C89A0C2AB2EC5180EFB959C7AFCFE" />
+            <ComponentRef Id="cmp4522F99ED11946579893811E900B4D4F" />
+            <ComponentRef Id="cmpF17936C51E1DCCC8A96FF149197B66C6" />
+            <ComponentRef Id="cmp076D922511F79982329B2D800C5D65DC" />
+            <ComponentRef Id="cmpD921B8D8FC4B10E33DD932BF96CFBCBB" />
+            <ComponentRef Id="cmp729703821781291552EE89D18488C0EC" />
+            <ComponentRef Id="cmpD02DEE895CD51EDD85EEFC7D9CD3B2B5" />
+            <ComponentRef Id="cmp22679E9A790F78DB2BEC721667845F1B" />
+            <ComponentRef Id="cmp28DDA9737B385F65B4E8E4730C9FF54F" />
+            <ComponentRef Id="cmpE118D9411E598904BA115C5E9D76E473" />
+            <ComponentRef Id="cmpC8D42CE6553239C447E59321BE1477F8" />
+            <ComponentRef Id="cmpEFA47E7AD7514A2546D7312462D9183D" />
+            <ComponentRef Id="cmp09EF107649042325446B579D8BC9A154" />
+            <ComponentRef Id="cmp17181DE11A6C96D45915955228504969" />
+            <ComponentRef Id="cmp5B6C876272A90633E0856440680AC0BB" />
+            <ComponentRef Id="cmp6EF42DD00BAEA8AD4F101BB68C8CB9BD" />
+            <ComponentRef Id="cmp415365AC1BC404F1C4F2405070BC9E06" />
+            <ComponentRef Id="cmp47F7894098707F087464AAEBCB41F092" />
+            <ComponentRef Id="cmpDF13E82CE34618630562F0893F0E7ADB" />
+            <ComponentRef Id="cmp4A8E97368B896853F7A6E56449C0BF2A" />
+            <ComponentRef Id="cmp6D89EC4BD352B19F4B53B5D711D2561D" />
+            <ComponentRef Id="cmpDC1AF77A057A2EC7AF2499A3A07ECCF8" />
+            <ComponentRef Id="cmp402BAFBC4033371165DEB19BC74EE0C1" />
+            <ComponentRef Id="cmpF5F73D0C69313F72B654BFBAA9D1CB65" />
+            <ComponentRef Id="cmp1EF8E85C530EBB296908A693DF2741C9" />
+            <ComponentRef Id="cmpE1FC6812A1C21B5DABB8FC70B2941970" />
+            <ComponentRef Id="cmp9455C8EB8387C344EAAEDF1E0762E8D3" />
+            <ComponentRef Id="cmpB0D26D3E25AF9333F3F760DE28829FE0" />
+            <ComponentRef Id="cmp9032EFC59DDDBCE0D52C7AC67B970B32" />
+            <ComponentRef Id="cmp9AA85509C19173716CF0E35E7C50B045" />
+            <ComponentRef Id="cmp1C50940147E9599B36FC2E6AF3529536" />
+            <ComponentRef Id="cmpA8F71119FFB3244B826A6E720AE860DF" />
+            <ComponentRef Id="cmp58E9FBD762EA61DAB3800CFFD985F6D3" />
+            <ComponentRef Id="cmp7F84E7BDE832AD774256581B2EDA1C55" />
+            <ComponentRef Id="cmp25053D1AA6B02EF0D214F1A359AB88EF" />
+            <ComponentRef Id="cmp138EC3BC1F535D50CE39D0CD7B1C0D9D" />
+            <ComponentRef Id="cmp1BAA43C54CD23A5F07C7E2DAC0184F42" />
+            <ComponentRef Id="cmp044B359D6A50B9C156B613362842D63C" />
+            <ComponentRef Id="cmpD79C9970A3023C0A37B6CD9D914A76E5" />
+            <ComponentRef Id="cmp64C32476F00EB1E1A1DDA5D2C248D4E6" />
+            <ComponentRef Id="cmp92BA9643668E6FF53E0D32BE35706EC1" />
+            <ComponentRef Id="cmp7F6E08948CBDA74E4FA8E038FC62CD4D" />
+            <ComponentRef Id="cmp127B48D57FD007383678A08BB9236AB5" />
+            <ComponentRef Id="cmp45D2F31BD19F968B4E0A6856548DB47A" />
+            <ComponentRef Id="cmpC3F049993F198439CA72AFA9E8473888" />
+            <ComponentRef Id="cmp5BA7590522ED62970CD3A2ED77543DC2" />
+            <ComponentRef Id="cmp49AC6F417F34F71FA9AB22B76A22C925" />
+            <ComponentRef Id="cmpBF037E1E37AF7D004B1EB082B7F38082" />
+            <ComponentRef Id="cmpD3E6F858E4F51E768867362FEE731115" />
+            <ComponentRef Id="cmp5DF2D898D13CF3AF11714C666B6141D4" />
+            <ComponentRef Id="cmp93A5752D8DAC2EFD51CD914529BE86CB" />
+            <ComponentRef Id="cmpA52C6BD4864C3441D7E9218EFCD9F649" />
+            <ComponentRef Id="cmpEAEEE1EDB7486041DB65EE9E5BD8AAC1" />
+            <ComponentRef Id="cmpB381254322FAC600AFD149839198E025" />
+            <ComponentRef Id="cmp6D5C2ED99FD72A1C0C6E378A62698842" />
+            <ComponentRef Id="cmpC08EDE181D4FBE55AF19BAFB6D98FCD7" />
+            <ComponentRef Id="cmpD271581B1D585C77C1CF42B2DA7282F4" />
+            <ComponentRef Id="cmp6FBD2E50FAF025D5C653E61A27CB33AF" />
+            <ComponentRef Id="cmp06D37D77844FB90464BC3A0B50D2305B" />
+            <ComponentRef Id="cmp6FA43604FF2BEF0F3A961BE45C229A98" />
+            <ComponentRef Id="cmp52AF73DD0F6BD7506E48493201DF9679" />
+            <ComponentRef Id="cmp94A75B035EF1DFC227AC7C3BC68FFFA1" />
+            <ComponentRef Id="cmp068A3A139F3B6E192A44841C4F96D058" />
+            <ComponentRef Id="cmpD219356E824CFB0F57BE3B2430155F98" />
+            <ComponentRef Id="cmp585FB74126B9D30233B5325D2192B2E1" />
+            <ComponentRef Id="cmpB9CFE0CDAAB786150C471E317DCDBF2F" />
+            <ComponentRef Id="cmpD190658C1C96504AAA076F2EE6F5F715" />
+            <ComponentRef Id="cmp1EA1876F676B63A6FDEB6D800E6E702F" />
+            <ComponentRef Id="cmpECC552391F18C23A4AE7E71965310F22" />
+            <ComponentRef Id="cmp7D60DB644E03BADDD7621805DCB7094E" />
+            <ComponentRef Id="cmp5759377526509F9CF22A8CBA3606EF9E" />
+            <ComponentRef Id="cmp58985518EAD6E3EE9CCABAB271BB1EA5" />
+            <ComponentRef Id="cmp61A6B7032592BF852F03B1F772E72DB5" />
+            <ComponentRef Id="cmp3255FBBD6F2F26229507B12546B92C67" />
+            <ComponentRef Id="cmp651706C0B27DD17529055F381BEBB8F5" />
+            <ComponentRef Id="cmpAC66C80EFA42C44015DFAA6E2C8537F1" />
+            <ComponentRef Id="cmp080CF3C85ADB68B0693981C085C5C461" />
+            <ComponentRef Id="cmpDA0474CAA59C8EE3989C948FF21A9083" />
+            <ComponentRef Id="cmpEC3F2FB788F106BD73D456E8CCA83EF6" />
+            <ComponentRef Id="cmp6964A98C0CD610FE6EED875772DBF8D9" />
+            <ComponentRef Id="cmp7031CE1E156115F0785B3630D0C108DC" />
+            <ComponentRef Id="cmp9E15FF8637BCBB10379E8930B63FC27C" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

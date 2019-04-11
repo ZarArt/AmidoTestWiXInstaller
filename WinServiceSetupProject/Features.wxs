@@ -8,6 +8,7 @@
       <Feature Id="IISFeature" Title="IIS Site" Level="1">
         <ComponentRef Id="DemoWebsiteAppPool"/>
         <ComponentRef Id="InstallWebsite"/>
+        <ComponentGroupRef Id="Binaries"/>
       </Feature>
     </Feature>
   </Fragment>
