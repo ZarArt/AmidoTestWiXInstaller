@@ -66,7 +66,7 @@
     <Error Text="The WiX Toolset v3.11 (or newer) build tools must be installed to build this project. To download the WiX Toolset, see http://wixtoolset.org/releases/" />
   </Target>
   <PropertyGroup>
-    <PreBuildEvent>"$(WIX)bin\heat.exe" dir $(AmidoIISPublishPath) -cg Binaries -gg -scom -sreg -sfrag -srd -dr WEBSITEFOLDER -var var.AmidoPublishPath -out $(ProjectDir)Binaries.wxs</PreBuildEvent>
+    <PreBuildEvent>"$(WIX)bin\heat.exe" dir $(SolutionDir)WebApplication\bin\Release\Publish -cg Binaries -gg -scom -sreg -sfrag -srd -dr WEBSITEFOLDER -var var.AmidoPublishPath -out $(ProjectDir)Binaries.wxs</PreBuildEvent>
   </PropertyGroup>
   <!--
 	To modify your build process, add your task inside one of the targets below and uncomment it.
